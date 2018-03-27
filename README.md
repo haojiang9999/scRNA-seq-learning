@@ -10,3 +10,8 @@ mkdir results/STAR
 
 STAR --runThreadN 4 --genomeDir indices/STAR --readFilesIn Share/ERR522959_1.fastq Share/ERR522959_2.fastq --outFileNamePrefix results/STAR/
 ```
+produce the Kallisto index.
+```
+mkdir indices/Kallisto
+kallisto index -i /home/huangrt/JH/Genome/indices/Kallisto/transcripts.idx /home/huangrt/JH/Genome/indices/STAR/gencode.vM16.transcripts.fa
+```
