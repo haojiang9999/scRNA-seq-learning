@@ -15,3 +15,7 @@ produce the Kallisto index.
 mkdir indices/Kallisto
 kallisto index -i /home/huangrt/JH/Genome/indices/Kallisto/transcripts.idx /home/huangrt/JH/Genome/indices/STAR/gencode.vM16.transcripts.fa
 ```
+Solution to Kallisto  [Pseudo-Alignment](https://pachterlab.github.io/kallisto/manual)
+```
+mkdir results/Kallisto
+kallisto pseudo -i /home/huangrt/JH/Genome/indices/Kallisto/transcripts.idx -o ./results/Kallisto
